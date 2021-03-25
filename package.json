@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/phamvanlong15/nodejs-jenkins-docker/issues"
   },
-  "homepage": "https://github.com/phamvanlong15/nodejs-jenkins-docker#readme"
+  "homepage": "https://github.com/phamvanlong15/nodejs-jenkins-docker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
