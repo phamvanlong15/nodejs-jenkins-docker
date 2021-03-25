@@ -4,7 +4,8 @@ const app = express();
 
 app.use('/', (res, req, next) => {
     res.status(200).send({
-        message: "Success"
+        message: "Success",
+        data: ""
     })
 })
 
