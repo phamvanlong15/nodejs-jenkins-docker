@@ -9,6 +9,10 @@ app.use('/', (res, req, next) => {
     })
 })
 
+app.get('/home', (req, res, next) => {
+    res.send('Home page')
+})
+
 app.listen(5566, () => {
     console.log('server is running at 5566')
 })
